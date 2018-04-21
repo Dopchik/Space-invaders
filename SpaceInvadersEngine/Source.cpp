@@ -96,6 +96,7 @@ void MoveHeroLeft(char field[y][x])
 {
 	swap(field[HeroY][HeroX], field[HeroY][HeroX - 1]);
 	HeroX--;
+	//супер мега изменение!!!
 }
 
 void MoveHeroRight(char field[y][x])
